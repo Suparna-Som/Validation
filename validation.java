@@ -2,6 +2,17 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class validation {
+   public static void age(int a)
+   {
+      if(a>=18)
+        {
+            System.out.println("You are eligible to vote");
+        }
+        else
+        {
+            System.out.println("YOu are too young to vote");
+        }
+    }
    
     public static void email_valid(String email){
         String emailRegex ="^[a-zA-Z0-9 +&*-]+(?:\\."+
